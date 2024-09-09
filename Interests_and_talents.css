@@ -1,0 +1,29 @@
+body {
+  background-image: url(image/BackG.webp);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.size1 {
+  font-size: 300%;
+  position: fixed;
+  top: 200px;
+  left: 710px;
+}
+
+p {
+  font-size: 180%;
+}
+
+.size2 {
+  font-size: 200px;
+}
+
+.Home_Page {
+  position: fixed;
+  top: 750px;
+  left: 800px;
+  font-size: 40px;
+  color: red;
+}
