@@ -122,7 +122,8 @@ ul {
     left: 880px;
     width: 175px;
     height: 40px;
-    color: skyblue;
+    background-color: rgb(27, 27, 27);
+    border-radius: 30%;
     }
     .bb2 {
         position: fixed;
@@ -130,7 +131,8 @@ ul {
         left: 750px;
         width: 110px;
         height: 40px;
-        color: skyblue;
+        background-color:rgb(27, 27, 27);
+        border-radius: 30%;
         }
         .bb3 {
         position: fixed;
@@ -138,5 +140,6 @@ ul {
         left: 550px;
         width: 175px;
         height: 40px;
-        color: skyblue;
+        background-color: rgb(27, 27, 27);
+        border-radius: 30%;
         }
