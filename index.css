@@ -1,0 +1,142 @@
+* {
+    padding: 10px;
+    }
+.image1 {
+     position:absolute;
+     top: 260px;
+     left: 1080px;
+     width: 500px; ;
+     height: 5px;
+    }
+    .image2 {
+        position:absolute;
+        top: 175px;
+        left: 1390px;
+        width: 5px; ;
+        height: 500px;
+        }
+        .image3 {
+            position:absolute;
+            top: 280px;
+            left: 1070px;
+            width: 300px; ;
+            height: 390px;
+            border-radius: 5%;
+            }
+            .image4 {
+                position:absolute;
+                top: 685px;
+                left: 400px;
+                width: 980px; ;
+                height: 5px; 
+                }
+                .image5 {
+                    position:absolute;
+                    top: 275px;
+                    left: 1050px;
+                    width: 5px; ;
+                    height: 500px;
+                    }
+h1 {
+    color: rgb(8, 94, 8);
+    position: absolute;
+    left: 1400px; 
+    top: 140px; 
+    font-size: 70px;    
+    }
+    h2 {
+        position: absolute;
+        left: 1400px;
+        top: 130px;
+        color: #075f3d;
+        font-size: 40px;
+        }
+        h3, h4, h5, h6, ul {
+            color: white;
+             } 
+.aboutme {
+    position: absolute;
+    top: 240px;
+    left: 450px;
+    font-size: 30px; 
+    }
+.link1 {
+    position: absolute;
+    top: 690px;
+    left: 1100px;
+    color: plum;
+    font-size: 25px;
+    font-size: 30px;
+    }
+    .link2 {
+        position: fixed;
+        top: 700px;
+        left: 870px;
+        }
+            .link3 {
+            position: fixed;
+            top: 700px;
+            left: 750px;
+            }
+                .link4 {
+                position: fixed;
+                top: 700px;
+                left: 550px;
+                }
+ul {
+    font-weight: bold;   
+    }
+    ol {
+        position: absolute;
+        top: 280px;
+        left: 550px;
+        }
+        .ol1 { 
+            position: absolute;
+            top: 320px;
+            left: 1410px ;
+            font-size: 30px;
+            color: white;
+            border: 5px groove gray;
+            padding: 2px;
+            width: 320px;
+            }
+.iat {
+    position: absolute;
+    top: 270px;
+    left: 1410px ;
+    font-size: 25px;
+    color: white;
+    border: 5px groove gray;
+    padding: 5px;
+    }
+.boxmodel {
+    width: 500px;
+    height:25px;
+    color: rgb(16, 153, 146);
+    background-color: none;
+}
+.bb1 {
+    position: fixed;
+    top: 730px;
+    left: 880px;
+    width: 175px;
+    height: 40px;
+    color: skyblue;
+    }
+    .bb2 {
+        position: fixed;
+        top: 730px;
+        left: 750px;
+        width: 110px;
+        height: 40px;
+        color: skyblue;
+        }
+        .bb3 {
+        position: fixed;
+        top: 730px;
+        left: 550px;
+        width: 175px;
+        height: 40px;
+        color: skyblue;
+        }
