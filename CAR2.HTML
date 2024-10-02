@@ -48,29 +48,62 @@
                                                     color: white;
                                                     transform: rotateY(180deg);
                                                     }
+                /* Style the links inside the sidenav */
+        #mySidenav a {
+            position: absolute; /* Position them relative to the browser window */
+            left: 300px; /* Position them outside of the screen */
+            transition: 0.3s; /* Add transition on hover */
+            padding: 15px; /* 15px padding */
+            width: 100px; /* Set a specific width */
+            text-decoration: none; /* Remove underline */
+            font-size: 20px; /* Increase font size */
+            color: white; /* White text color */
+            border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+            }
+            #mySidenav a:hover {
+                left: 350px; /* On mouse-over, make the elements appear as they should */
+                }
+                /* The about link: 20px from the top with a green background */
+                #about {
+                    top: 120px;
+                    background-color: #04AA6D;
+                    }
+                    #blog {
+                        top: 180px;
+                        background-color: #2196F3; /* Blue */
+                        }
+                        #projects {
+                            top: 240px;
+                            background-color: #f44336; /* Red */
+                            }
+                            #contact {
+                                top: 300px;
+                                background-color: #555 /* Light Black */
+                                }
         .hide2 {
             display: none;
-            background-color: #837070;
+            background-color: #555; /* Light Black */
             width: 450px;
             height: 40px;
             position: fixed;
             left: -400px;
             top: 220px;
             text-align: left;
+            border-radius: 5%;;
             }
             .hover2:hover + .hide2 {
                 display: block;
                 }
         .hide1 {
             display: none;
-            background-color: #837070;
             width: 450px;
             height: 160px;
             position: fixed;
             left: -400px;
             top: 100px;
-            text-align: center;
+            text-align: center; 
             text-align: start;
+            background-color: #555; /* Light Black */
             }
             .hover1:hover + .hide1 {
                 display: block;
@@ -83,25 +116,27 @@
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <img src="pictures/myimage.jpg" alt="Avatar" style="width:300px;height:300px;">
+            <p>Name: James Angelo Mayam</p> 
+            <ul>Age:20</ul>
           </div>
           <div class="flip-card-back">
-            <h1>About Me</h1>
+        <br>
+            <h1>More Info</h1>
             <br>
-            <p>Name: James Angelo Mayam</p> 
+            
             <br>
-            <BUtton class="hover1">School</BUtton>
+            <h3 class="hover1">School</h3>
             <div class="hide1">
                 <ol>
                     <ul>School:University of the Immaculate Conception(UIC).</ul>
                     <ul>Course:Bachelor of Science in Information Technology (BSIT).</ul>
                     <ul>Course Year: 2nd year</ul>
-                    <ul>Age:20</ul>
                     <ul>Uic Gmail:Jmayam_220000001833@uic.edu.ph</ul>
-                    <ul>Personal Gmail:Jamesangelomc@gmail.com</ul>
+                    
                 </ol>
             </div>
             <br><br><br>
-            <BUtton class="hover2">Home Address</BUtton>
+            <h3 class="hover2">Home Address</h3>
             <div class="hide2">
                 <ol>
                     <ul>Home Address:#5 Marfori heights, kasipagan street.</ul>
@@ -109,6 +144,13 @@
             </div>
           </div>
         </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="HR.html" id="about">Healthy Recipes</a>
+            <a href="FashionBlog.html" id="blog">Fashion Blog</a>
+            <a href="Fashion.html" id="projects">Fashion</a>
+            <a href="Woodruff.html" id="contact">WoodRuff</a>
+          </div>
     </div>
 </body>
 </html>
