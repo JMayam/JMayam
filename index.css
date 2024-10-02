@@ -68,26 +68,6 @@ h1 {
     font-size: 25px;
     font-size: 30px;
     }
-    .link2 {
-        position: fixed;
-        top: 700px;
-        left: 870px;
-        }
-            .link3 {
-                position: fixed;
-                top: 700px;
-                left: 770px;
-                }
-                .link4 {
-                    position: fixed;
-                    top: 700px;
-                    left: 630px;
-                    }
-                    .link5 {
-                        position: fixed;
-                        top: 700px;
-                        left: 520px;
-                        }
 ul {
     font-weight: bold;   
     }
@@ -113,6 +93,7 @@ ul {
             transition: 0.3s; /* Add transition on hover */
             padding: 15px; /* 15px padding */
             width: 150px; /* Set a specific width */
+            height: 15px;
             text-decoration: none; /* Remove underline */
             font-size: 20px; /* Increase font size */
             color: white; /* White text color */
@@ -125,19 +106,19 @@ ul {
                 /* The about link: 20px from the top with a green background */
                 #about {
                     left: 280px;
-                    background-color: #04AA6D;
+                    background-color: #828382;
                     }
                     #blog {
                         left: 470px;
-                        background-color: #2196F3; /* Blue */
+                        background-color: #828382; /* Blue */
                         }
                         #projects {
                             left: 660px;
-                            background-color: #f44336; /* Red */
+                            background-color: #828382; /* Red */
                             }
                             #contact {
                                 left: 850px;
-                                background-color: #555 /* Light Black */
+                                background-color: #828382 /* Light Black */
                                 }
 .iat {
     position: absolute;
