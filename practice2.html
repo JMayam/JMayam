@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* image */
+.popup { 
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+    }
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 660px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+ 
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+</style>
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+</head>
+<body style="text-align:center; padding-top: 200px;" >
+
+<h2>Popup</h2>
+
+<div class="popup" onclick="myFunction()"><img src="icon/education.png" alt="">
+  <div class="popuptext" id="myPopup">A Simple Popup!</div>
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
+
+</body>
+</html>

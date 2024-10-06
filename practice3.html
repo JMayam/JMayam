@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myimg {
+            width: 80px;
+            height: 110px;
+        }
+        #idbox1 {
+            display: flex;
+            flex-direction: row;
+            }
+        .box1 {
+            display: flex;
+            flex-direction: row;
+            padding-left: 280px;
+            padding-top: 180px;
+            }
+            .box2 {
+                display: flex;
+                flex-direction: row;
+                padding-left: 280px;
+                padding-top: 20px;
+                }
+        .inside_box1 {
+            display: flex;
+            flex-direction: row;
+            }
+        .size1 {
+            width: 200px;
+            height: 180px;
+            background-color: brown;
+            text-align: center;
+            }
+            .size2 {
+                width: 400px;
+                height: 180px;
+                background-color: brown;
+                text-align: center;
+                }
+                .size3 {
+                    width: 400px;
+                    height: 180px;
+                    background-color: brown;
+                    text-align: left;
+                    padding-left: 10px;
+                    }
+                    .size4 {
+                        width: 400px;
+                        height: 180px;
+                        background-color: brown;
+                        text-align: left;
+                        padding-left: 10px;
+                        text-align: center;
+                        }
+                
+        .icon {
+            width: 80px;
+            height: 80px;
+            padding-top: 40px;
+            }
+        .popup { 
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            }
+            /* ang popup screen*/
+            .popup .popuptext {
+                visibility: hidden;
+                width: 560px;
+                background-color: #ff0a0a;
+                color: #000000;
+                border-radius: 6px;
+                position: absolute;
+                padding: 0px;
+                left: 80px;
+                top: 50px;
+                font-size: 40px;
+                }
+                /* Toggle this class - hide and show the popup */
+                .popup .show {
+                    visibility: visible;
+                    -webkit-animation: fadeIn 1s;
+                    animation: fadeIn 1s;
+                    }      
+        #hover1 {
+            display: block;
+            } 
+            
+    </style>
+</head>
+<body>
+    <h1>Potfolio</h1>
+        <div class="box1">
+            <div>
+               <img src="icon/spellbook.png" alt="" class="icon" id="hover1">
+            </div>
+            <div class="inside_box1">
+                <div class="size1">
+                    <img src="pictures/myimage.jpg" alt="" class="myimg">
+                    <p>James Angelo Mayam</p>
+                </div>
+                <div class="size2">
+                    <ul>
+                        <li class="boxmodel">Home Address:#5 Marfori heights, kasipagan street.</li>
+                        <li class="boxmodel">School:University of the Immaculate Conception(UIC).</li>
+                        <li class="boxmodel">Course:Bachelor of Science in Information Technology (BSIT).    </li>
+                        <li class="boxmodel">Course Year: 2nd year</li>
+                        <li class="boxmodel">Age:20</li>
+                        <li class="boxmodel">Uic Gmail:Jmayam_220000001833@uic.edu.ph</li>
+                        <li class="boxmodel">Personal Gmail:Jamesangelomc@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div>
+               <img src="icon/contact-book.png" alt="" class="icon">
+            </div>
+            <div class="inside_box1">
+                <div class="size3">
+                    <p>Email:</p>
+                    <ul>
+                        <li class="boxmodel">Uic Gmail:Jmayam_220000001833@uic.edu.ph</li>
+                        <li class="boxmodel">Personal Gmail:Jamesangelomc@gmail.com</li>
+                    </ul>
+                    <p>Number:</p>
+                    <p style="padding-left: 40px;">09439089927</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div id="idbox1" class="popup" onclick="myFunction()"><img src="icon/education.png" alt="" class="icon">
+                    <div class="popuptext" id="myPopup">
+                        <a href="">hahaha</a>
+                        <a href="">hehehehe</a>
+                        <a href="">jejejeje</a>
+                        <a href="">jajajaja</a>
+                    </div>
+            </div>
+            <script>
+                // When the user clicks on div, open the popup
+                function myFunction() {
+                  var popup = document.getElementById("myPopup");
+                  popup.classList.toggle("show");
+                }
+                </script>
+        </div>
+            
+
+        
+
+        
+</body>
+</html>
