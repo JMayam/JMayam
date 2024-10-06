@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayam CSS Activty 3 MQ</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            height: 500px;
+            width: 500px;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            transition: width 0.5s, height 0.5s;
+        }
+      
+
+        @media (max-width: 768px) {
+            .profile-image {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile-image {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Query Demo</h1>
+    <img src="pictures/myimage.jpg" alt="" class="profile-image">
+</body>
+</html>
