@@ -11,33 +11,44 @@
             text-align: center;
         }
         img {
-            height: 500px;
-            width: 500px;
-            width: 500px;
-            height: 500px;
+            height: 900px;
+            width: 900px;
             border-radius: 50%;
             transition: width 0.5s, height 0.5s;
         }
-        @media (max-width: 1000px) {
+        @media (max-width: 1100px) {
             .profile-image {
-                width: 750px;
-                height: 750px;
+                width: 900px;
+                height: 900px;;
             }
-
-        @media (max-width: 768px) {
+        }
+        @media (max-width: 900px) {
+            .profile-image {
+                width: 700px;
+                height: 700px;;
+            }
+        }
+        @media (max-width: 700px) {
+            .profile-image {
+                width: 500px;
+                height: 500px;
+            }
+        }
+        @media (max-width: 500px) {
             .profile-image {
                 width: 300px;
                 height: 300px;
             }
         }
-
-        @media (max-width: 480px) {
+        @media (max-width: 300px) {
             .profile-image {
-                width: 150px;
-                height: 150px;
+                display: none;
             }
         }
-       
+        @media (max-width: 200px) {
+            h1 {
+                display: none;
+            }
         }
     </style>
 </head>
