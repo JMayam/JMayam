@@ -1,0 +1,97 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #031716;
+}
+.head {
+    margin-top: 20px;
+    width: 95%;;
+    background-color: #009fa1(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    }
+    .HeadName {
+        left: 0px;
+        }
+        .HeadName1 {
+            right: 0px;
+            }
+            .HeadName2 {
+                right: 0px;
+                }
+    
+.HomePage {
+    margin-top: 20px;
+    width: 95%;;
+    height: 1230px;
+    background-color: #0A7075;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px inset grey;
+    }
+    .HomeName {
+        font-size: 70px;
+        }
+        .HomeName1 {
+            font-size: 40px;
+            }
+            .face {
+                width: 510px;
+                height: 510px;
+                border-radius: 300px;
+                border: 10px outset teal;
+                }
+.AboutPage {
+    width: 95%;
+    height: 1230px;
+    background-color: #0C969C   ;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 4px inset grey;
+    }
+    .jersey{
+        width: 510px;
+        height: 590px;
+        border-radius: 300px;
+        border: 10px outset teal;
+        }
+        .AboutName {
+            font-size: 50px;
+            }
+            .AboutName1 {
+                font-size: 30px;
+                }
+                .AboutName2 {
+                    font-size: 20px;
+                    }
+.ProjectPage {
+    width: 95%;;
+    height: 1230px;
+    background-color: #6BA3BE;
+    align-items: center;
+    display: flex;
+    flex-direction: column;         
+    border: 4px inset grey;
+    }
+    .ProjectPage1 {
+        width: 95%;;
+        background-color: #6BA3BE;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+        .ProjectImg {
+            width: 390px;
+            height: 390px;
+            }
+ 
