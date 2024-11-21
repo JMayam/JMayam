@@ -20,12 +20,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #031716;
+    background-color: #c1e6ba;
 }
 .HeadPage {
     margin-top: 20px;
     width: 95%;;
-    background-color: #009fa1(0, 0, 0, 0.2);
+    background-color: #009fa1(0, 0, 0, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,9 @@ body {
                 font-family: 'curve1', sans-serif ;
                 border-radius: 300px;
                 }
+                .Headstyle {
+                    color: yellow;
+                    }
     
 .HomePage {
     margin-top: 20px;
