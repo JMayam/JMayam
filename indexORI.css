@@ -1,0 +1,144 @@
+* {
+    padding: 10px;
+    }
+.image1 {
+     position:absolute;
+     top: 260px;
+     left: 1080px;
+     width: 500px; ;
+     height: 5px;
+    }
+    .image2 {
+        position:absolute;
+        top: 175px;
+        left: 1390px;
+        width: 5px; ;
+        height: 500px;
+        }
+        .image3 {
+            position:absolute;
+            top: 280px;
+            left: 1070px;
+            width: 300px; ;
+            height: 390px;
+            border-radius: 5%;
+            }
+            .image4 {
+                position:absolute;
+                top: 685px;
+                left: 400px;
+                width: 980px; ;
+                height: 5px; 
+                }
+                .image5 {
+                    position:absolute;
+                    top: 275px;
+                    left: 1050px;
+                    width: 5px; ;
+                    height: 500px;
+                    }
+h1 {
+    color: rgb(8, 94, 8);
+    position: absolute;
+    left: 1400px; 
+    top: 140px; 
+    font-size: 70px;    
+    }
+    h2 {
+        position: absolute;
+        left: 1400px;
+        top: 130px;
+        color: #075f3d;
+        font-size: 40px;
+        }
+        h3, h4, h5, h6, ul {
+            color: white;
+             } 
+.aboutme {
+    position: absolute;
+    top: 240px;
+    left: 450px;
+    font-size: 30px; 
+    }
+.link1 {
+    position: absolute;
+    top: 690px;
+    left: 1100px;
+    color: plum;
+    font-size: 25px;
+    font-size: 30px;
+    }
+ul {
+    font-weight: bold;   
+    }
+    ol {
+        position: absolute;
+        top: 280px;
+        left: 550px;
+        }
+        .ol1 { 
+            position: absolute;
+            top: 320px;
+            left: 1410px ;
+            font-size: 30px;
+            color: white;
+            border: 5px groove gray;
+            padding: 2px;
+            width: 420px;
+            }
+                    /* Style the links inside the sidenav */
+    #mySidenav a {
+            position: absolute; /* Position them relative to the browser window */
+            top: 730px; /* Position them outside of the screen */
+            transition: 0.3s; /* Add transition on hover */
+            padding: 15px; /* 15px padding */
+            width: 150px; /* Set a specific width */
+            height: 15px;
+            text-decoration: none; /* Remove underline */
+            font-size: 20px; /* Increase font size */
+            color: white; /* White text color */
+            border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+            }
+            #mySidenav a:hover {
+                top: 760px; /* On mouse-over, make the elements appear as they should */
+                
+                }
+                /* The about link: 20px from the top with a green background */
+                #about {
+                    left: 280px;
+                    background-color: #828382;
+                    }
+                    #blog {
+                        left: 470px;
+                        background-color: #828382; /* Blue */
+                        }
+                        #projects {
+                            left: 660px;
+                            background-color: #828382; /* Red */
+                            }
+                            #contact {
+                                left: 850px;
+                                background-color: #828382 /* Light Black */
+                                }
+.iat {
+    position: absolute;
+    top: 270px;
+    left: 1410px ;
+    font-size: 25px;
+    color: white;
+    border: 5px groove gray;
+    padding: 5px;
+    }
+.boxmodel {
+    width: 500px;
+    height:25px;
+    color: rgb(16, 153, 146);
+    background-color: none;
+    }
+    /*Popup=Hover*/
+    .hide1 {
+        display: none;
+        }
+        .hover1:hover + .hide1 {
+            display:block;
+        }
