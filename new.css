@@ -43,7 +43,7 @@ body {
         animation: glow 1s ease-in-out infinite alternate;
         }
         .HeadName1 {
-            margin-left: 50%;
+            margin-left: 40%;
             font-family: 'curve1', sans-serif ;
             letter-spacing: 5px;
             font-size:20PX;
@@ -83,7 +83,7 @@ body {
             font-family: 'curve', sans-serif ;
             font-weight: bold;
             color: #ffffff;
-            margin-top: -50px;
+            margin-top: -40px;
             
             }
             .HomeName2 {
@@ -91,7 +91,7 @@ body {
                 font-family: 'curve1', sans-serif ;
                 font-weight: bold;
                 color: #ffffff;
-                margin-top: -90px;
+                margin-top: -70px;
                 }
                 .face {
                     width: 510px;
@@ -205,9 +205,43 @@ body {
                                 color: #00ffea;
                                 }
                                  /*///////////////////////*/
-.API {
+.API3 {
     width: 100%;
     height: 1100px;
     background-color: #1d1818;
-}
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .jokebox {
+        width: 600px;
+        height: 300px;
+        background-color: #01c38d;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 20px;
+        }
+        .jokepp {
+            font-size: 40px;
+            margin: 20px;
+        }
+        .jokebb {
+            font-size: 35px;
+            font-weight: 50px;
+            margin: 20px;
+           background-color: #092231;
+            color: #00ffea;
+            border-radius: 30px;
+            
+        }
+        .API2 {
+            font-size:90px;
+            color: #01c38d;
+            margin-top: -60px;
+            font-family: 'curve1', sans-serif ;
+        }
+
  

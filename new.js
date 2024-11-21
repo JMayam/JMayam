@@ -1,6 +1,10 @@
-const sound = document.querySelector(".sound");
-const playb = document.querySelector(".play");
-const pauseb = document.querySelector(".pause");
-
-playb.addEventListener("click", () => { sound.play});
-console.log(audio);
+const jokeContainer = document.getElementById("jokep")
+const btn = document.getElementById("jokeb")
+const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious,political,explicit";
+let getJoke = () => {
+    fetch(url)
+    .the(data => data.json())
+    .then(item => {jokeContainer.textContent = '${item.jokep}';});
+}   
+jokeb.addEventLister("click", getJoke);
+getJoke();

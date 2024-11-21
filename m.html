@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lastname API Demo | Movies</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <h1>Lastname API Demo on Movies</h1>
-
-    <button onclick="callAPI()">Fetch Movie</button>
-  
-    <div>
-      <h2>Movie Details</h2>
-      <p><strong>ID:</strong> <span id="movie_id">--</span></p>
-      <p><strong>Title:</strong> <span id="movie_title">--</span></p>
-      <p><strong>Year:</strong> <span id="movie_year">--</span></p>
-      <p><strong>Poster:</strong> <div id="movie_poster">--</div></p>
+  <section class="API">
+    <div class="jokebox">
+        <p id="jokep">
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Ad ab voluptatum porro sequi 
+            reprehenderit atque temporibus ipsum! Quod eveniet 
+            itaque aliquam eum illo obcaecati vero eius soluta 
+            iste! Culpa, aperiam.
+        </p>
     </div>
-
-    <script src="script.js"></script>
+    <button id="jokeb">gets random jokes</button>
+    <script >const jokeContainer = document.getElementById("jokep")
+      const btn = document.getElementById("jokeb")
+      const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious,political,explicit";
+      let getJoke = () => {
+          fetch(url)
+          .the(data => data.json())
+          .then(item => {jokeContainer.textContent = '${item.jokep}';});
+      }   
+      jokeb.addEventLister("click", getJoke);
+      getJoke();</script>
+</section>
 </body>
 </html>
+
+fix this code so that the joke button work

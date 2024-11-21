@@ -13,6 +13,7 @@
             <a href="#Home" class="Headstyle">Home</a>
             <a href="#About" class="Headstyle">About</a>
             <a href="#Project" class="Headstyle">Project</a>
+            <a href="#API" class="Headstyle">API</a>
         </div>
 
         <button class="HeadName2">Light Mode</button>
@@ -78,12 +79,28 @@
             </div>
         </div>
     </section>
-    <section class="API">
-        <audio src="audio/Mitski - My Love Mine All Mine (Official Lyric Video).mp3" class="sound" ></audio>
-        <button class="play">play</button>
-        <button class="pause">pause</button>
-
-        <script src="C:\Users\james\Documents\GitHub\JMayam\new.js"></script>
-    </section>
+    <section class="API3" id="API"> 
+        <H1 class="API2">API</H1>
+        <div class="jokebox"> 
+            <p id="jokep" class="jokepp"> 
+                Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Ad ab voluptatum porro sequi 
+                reprehenderit atque temporibus ipsum! Quod eveniet 
+                itaque aliquam eum illo obcaecati vero eius soluta iste! 
+                Culpa, aperiam. 
+            </p> 
+        </div> 
+        <button id="jokeb" class="jokebb">Gets random jokes</button> 
+        <script> 
+        const jokeContainer = document.getElementById("jokep"); 
+        const btn = document.getElementById("jokeb"); 
+        const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious,political,explicit"; 
+        let getJoke = () => { 
+            fetch(url) .then(data => data.json()) 
+            .then(item => { jokeContainer.textContent = item.joke || `${item.setup} - ${item.delivery}`; }); }; 
+            btn.addEventListener("click", getJoke); 
+            getJoke(); 
+            </script> 
+        </section>
 </body>
 </html>
