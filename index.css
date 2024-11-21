@@ -273,5 +273,286 @@ body {
 #icon {
     cursor: pointer;
 }
+@media (max-width: 400px){
+    @keyframes glow 
+{ from { text-shadow: 0 0 5px #f0f0f0, 0 0 5px #f0f0f0, 0 0 5px #f0f0f0, 0 0 5px #f0f0f0, 0 0 5px #f0f0f0, 0 0 5px #f0f0f0, 0 0 5px #f0f0f0; } 
+to 
+{ text-shadow: 0 0 1px #f0f0f0, 0 0 1px #f0f0f0, 0 0 1px #f0f0f0, 0 0 1px #f0f0f0, 0 0 1px #f0f0f0, 0 0 1px #f0f0f0, 0 0 1px #f0f0f0; } }
+@font-face {
+    font-family: "curve";
+    src: url(newfont/MemphisRiver.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: "curve1";
+        src: url(newfont/Roblox-Font-Bold.ttf) format('truetype');
+        font-weight: bold;
+        }
+        @font-face {
+            font-family: "curve2";
+            src: url(newfont/Roblox-Font-Regular.ttf) format('truetype');
+            font-weight: normal;
+            }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--one-color);
+}
+.HeadPage {
+    margin-top: 20px;
+    width: 90%;
+    background-color: var(--headhead);
+    opacity: 0.9;
+    border-radius: 10px;
+    opacity: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    }
+    .HeadName, .glow {
+        margin-left: 1%;
+        font-family: 'curve1', sans-serif ;
+        font-weight: bold;
+        color: var( --hea1);
+        animation: glow 1s ease-in-out infinite alternate;
+        }
+        .HeadName1 {
+            margin-left: 10%;
+            font-family: 'curve1', sans-serif ;
+            letter-spacing: 5px;
+            font-size:20PX;
+            }
+            .HeadName2 {
+                margin-left: 3%;
+                margin-right: 5%;
+                font-family: 'curve1', sans-serif ;
+                border-radius: 300px;
+                color: var(--fout-color);
+                width: 50px;
+                height: 50px ;
+
+                }
+                .Headstyle {
+                    color: var(--five-color);
+                    text-decoration: none;
+                    display: none;
+                    }
+                    /*///////////////////////*/
+.HomePage {
+    width: 100%;;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--one-color);
+    }
+    .HomeName {
+        font-size: 10px;
+        font-family: 'curve1', sans-serif ;
+        font-weight: bold;
+        color: var(--five-color);
+        word-spacing: 10px;
+        letter-spacing: 0.5px;
+        margin-top: 20px;
+        }
+        .HomeName1 {
+            font-size: 20px;
+            font-family: 'curve', sans-serif ;
+            font-weight: bold;
+            color: var(--sev-color);
+            margin-top: -40px;
+            
+            }
+            .HomeName2 {
+                font-size: 10px;
+                font-family: 'curve1', sans-serif ;
+                font-weight: bold;
+                font-size: 10PX;
+                color: var(--sev-color);
+                margin-top: -70px;
+                }
+                .face {
+                    display: none;
+                    width: 510px;
+                    height: 510px;
+                    border-radius: 300px;
+                    margin-top: 30px;
+                    }
+                    .span2, .glow {
+                        color: var(--fout-color);
+                        animation: glow 1s ease-in-out infinite alternate;
+                    }
+                    
+
+                    /*///////////////////////*/
+.AboutPage {
+    width: 100%;
+    height: 500px;
+    background-color: var(--two-color) ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .AboutPage1 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+        .jersey{ 
+            display: none;
+        width: 510px;
+        height: 590px;
+        border-radius: 300px;
+        border: 10px outset #01c38d;
+        }
+        .AboutName {
+            font-size: 80px;
+            color: var(--sev-color);
+            }
+            .AboutName1 {
+                font-size: 35px;
+                margin-top: -50px;
+                color: #696e79;
+                }
+                .AboutName2 {
+                    font-size: 20px;
+                    color: var(--sev-color);
+                    }
+                    .AboutText{
+                        font-size:90px;
+                        color: var(--fout-color);
+                        margin-top: -60px;
+                        font-family: 'curve1', sans-serif ;
+                       
+                        }
+                        .span1, .glow {
+                            color: var( --three-color);
+                            animation: glow 1s ease-in-out infinite alternate;
+                            }
+                        /*///////////////////////*/
+.ProjectPage {
+    width: 100%;;
+    height: 1100px;
+    background-color: var(--one-color);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;         
+    }
+    .ProjectPage1 {
+        width: 95%;;                          
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .ProjectImg {
+            width: 390px;
+            height: 390px;
+            }
+            .p1 {
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+                }
+                .p2 {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: var(--six-color);
+                    margin: 10px;
+                    border-radius: 20px;
+                    }
+                    .p3 {
+                        margin-bottom: 150px;
+                        font-size:90px;
+                        color: var(--fout-color);
+                        margin-top: -60px;
+                        font-family: 'curve1', sans-serif ;
+                        }
+                        .p4 {
+                            height: 300px;
+                            width: 300px;
+                            margin: 5px;
+                            border-radius: 20px;
+                            }
+                            .p5 {
+                                color: var( --three-color);
+                                }
+                                 /*///////////////////////*/
+.API3 {
+    width: 100%;
+    height: 1100px;
+    background-color: var(--two-color);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .jokebox {
+        width: 600px;
+        height: 300px;
+        background-color: var(--fout-color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 20px;
+        }
+        .jokepp {
+            font-size: 40px;
+            margin: 20px;
+        }
+        .jokebb {
+            font-size: 35px;
+            font-weight: 50px;
+            margin: 20px;
+            background-color: var(--one-color);
+            color: var( --three-color);
+            border-radius: 30px;
+            
+        }
+        .API2 {
+            font-size:90px;
+            color: #01c38d;
+            margin-top: -60px;
+            font-family: 'curve1', sans-serif ;
+        }
+.number {
+    color: #00ffea ;
+}   
+:root {
+    --one-color:#191e29;
+    --two-color:#2d3547;
+    --three-color:#00ffea;
+    --fout-color:#01c38d;
+    --five-color: #e4fd00;
+    --six-color: #132d46;
+    --sev-color: #ffffff;
+    --headhead: #0f1218;
+    --hea1: #00ffea;
+}
+.light-theme {
+    --one-color:#6785c7;
+    --two-color:#737780;
+    --three-color:#00ffea;
+    --fout-color:#ec00d9;
+    --five-color: #e4fd00;
+    --six-color: #000000;
+    --sev-color: #ffffff;
+    --headhead: #b2b4b8;
+}
+#icon {
+    cursor: pointer;
+}
+}
 
  
