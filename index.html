@@ -16,7 +16,20 @@
             <a href="#API" class="Headstyle">API</a>
         </div>
 
-        <button class="HeadName2">Light Mode</button>
+        <img src="icon/sun.png"  class="HeadName2" id="icon">
+        <script>
+
+            var icon = document.getElementById( "icon");
+
+            icon.onclick = function(){  
+                document.body.classList.toggle("light-theme");
+                if (document.body.classList.contains("light-theme")){
+                    icon.src = "icon/moon.png";
+                }else {icon.src = "icon/sun.png"
+
+                }
+            }
+        </script>
     </header>
 
     <section id="Home" class="HomePage">
@@ -79,7 +92,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="API3" id="API"> 
         <H1 class="API2">API</H1>
         <div class="jokebox"> 
@@ -103,6 +116,8 @@
             getJoke(); 
             </script> 
         </section>
+
+       
         <footer id="down">
             <p class="number">number: 09439089927</p>
         </footer>

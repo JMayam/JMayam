@@ -39,7 +39,7 @@ body {
         margin-left: 5%;
         font-family: 'curve1', sans-serif ;
         font-weight: bold;
-        color: #00ffea;
+        color: var( --hea1);
         animation: glow 1s ease-in-out infinite alternate;
         }
         .HeadName1 {
@@ -54,6 +54,9 @@ body {
                 font-family: 'curve1', sans-serif ;
                 border-radius: 300px;
                 color: var(--fout-color);
+                width: 50px;
+                height: 50px ;
+
                 }
                 .Headstyle {
                     color: var(--five-color);
@@ -255,6 +258,20 @@ body {
     --six-color: #132d46;
     --sev-color: #ffffff;
     --headhead: #0f1218;
+    --hea1: #00ffea;
+}
+.light-theme {
+    --one-color:#6785c7;
+    --two-color:#737780;
+    --three-color:#00ffea;
+    --fout-color:#ec00d9;
+    --five-color: #e4fd00;
+    --six-color: #000000;
+    --sev-color: #ffffff;
+    --headhead: #b2b4b8;
+}
+#icon {
+    cursor: pointer;
 }
 
  
