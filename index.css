@@ -392,7 +392,7 @@ body {
                     /*///////////////////////*/
 .AboutPage {
     width: 100%;
-    height: 500px;
+    height: 200px;
     background-color: var(--two-color) ;
     align-items: center;
     display: flex;
@@ -419,7 +419,7 @@ body {
             .AboutName1 {
                 font-size: 15px;
                 margin-top: 10px;
-                color: #696e79;
+                color: var(--idont-);
                 }
                 .AboutName2 {
                     font-size: 10px;
@@ -542,10 +542,11 @@ body {
     --sev-color: #ffffff;
     --headhead: #0f1218;
     --hea1: #00ffea;
+    --idont-:black;
 }
 .light-theme {
-    --one-color:#6785c7;
-    --two-color:#737780;
+    --one-color:#1e2127;
+    --two-color:#293041;
     --three-color:#00ffea;
     --fout-color:#ec00d9;
     --five-color: #e4fd00;
